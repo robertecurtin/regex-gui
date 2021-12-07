@@ -4,6 +4,7 @@ import { LinkPreview } from '@dhaiwat10/react-link-preview';
 import config from './config.json'
 
 const PadRemainingSpace = <Col fluid={true} />
+
 function Links() {
   return <div className='Game'>
     <Container>
