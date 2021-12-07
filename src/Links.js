@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import { LinkPreview } from '@dhaiwat10/react-link-preview';
-import config from './config.json'
+import config from './index.json'
 
 const PadRemainingSpace = <Col fluid={true} />
 
