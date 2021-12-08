@@ -11,7 +11,7 @@ function Intro() {
       <Row>
         {PadRemainingSpace}
         <Col>
-          Stuff Robert thought was neat
+          Stuff Robert thought was neat!
         </Col>
         {PadRemainingSpace}
       </Row>
