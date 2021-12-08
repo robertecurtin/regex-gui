@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import { LinkPreview } from '@dhaiwat10/react-link-preview';
 
-const PadRemainingSpace = <Col fluid={true} />
+const PadRemainingSpace = <Col fluid={true} />;
 
 const config = [
   "https://bost.ocks.org/mike/algorithms/",
@@ -31,7 +31,7 @@ function Links() {
         {config.map((url) => {
           return <Col width='300px' key={`row-containing-${url}`}>
             <LinkPreview url={url} width='300px' />
-          </Col>
+          </Col>;
         })}
         {PadRemainingSpace}
       </Row>

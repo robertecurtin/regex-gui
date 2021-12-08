@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Links from './Links';
-import Intro from './Intro'
+import Intro from './Intro';
 
 class App extends Component {
   render () {
