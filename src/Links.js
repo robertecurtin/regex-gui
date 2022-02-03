@@ -21,7 +21,8 @@ const config = [
   "https://mtlynch.io/code-review-love/",
   "https://www.wired.co.uk/article/corporate-memphis-design-tech",
   "https://quickparty.games/",
-  "https://www.nature.com/articles/d41586-021-01822-1"
+  "https://www.nature.com/articles/d41586-021-01822-1",
+  "https://github.com/hannahcode/word-guessing-game"
 ];
 
 function Links() {
