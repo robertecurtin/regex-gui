@@ -23,7 +23,8 @@ const config = [
   "https://quickparty.games/",
   "https://www.nature.com/articles/d41586-021-01822-1",
   "https://github.com/hannahcode/word-guessing-game",
-  "https://github.com/Droogans/unmaintainable-code"
+  "https://github.com/Droogans/unmaintainable-code",
+  "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
 ];
 
 function Links() {
