@@ -5,6 +5,7 @@ import { LinkPreview } from '@dhaiwat10/react-link-preview';
 const PadRemainingSpace = <Col fluid={true} />;
 
 const config = [
+  "https://cs.fit.edu/~kgallagher/Schtick/How%20To%20Write%20Unmaintainable%20Code.html",
   "https://bost.ocks.org/mike/algorithms/",
   "https://ncase.me/trust/",
   "https://catonmat.net/low-level-bit-hacks",
