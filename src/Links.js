@@ -25,11 +25,12 @@ const config = [
   "https://www.nature.com/articles/d41586-021-01822-1",
   "https://github.com/hannahcode/word-guessing-game",
   "https://github.com/Droogans/unmaintainable-code",
-  "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
+  "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+  "https://embeddedartistry.com/course/building-testable-embedded-systems/"
 ];
 
 function Links() {
-  return <div className='Game'>
+  return <div className='Links'>
     <Container>
       <Row>
         {config.map((url) => {
