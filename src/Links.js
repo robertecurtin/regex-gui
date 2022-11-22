@@ -26,7 +26,8 @@ const config = [
   "https://github.com/hannahcode/word-guessing-game",
   "https://github.com/Droogans/unmaintainable-code",
   "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
-  "https://embeddedartistry.com/course/building-testable-embedded-systems/"
+  "https://embeddedartistry.com/course/building-testable-embedded-systems/",
+  "https://diataxis.fr/"
 ];
 
 function Links() {
