@@ -8,9 +8,10 @@
     },
     "rules": {
         "semi": 2,
-        "no-unused-expressions": 2,
-        "no-unused-vars": 2,
-        "no-unused-labels": 2
+        "no-unused-expressions": 0,
+        "no-unused-vars": 0,
+        "no-unused-labels": 0,
+        "no-undef": 0
     },
     "extends": [
         "plugin:react/recommended"
