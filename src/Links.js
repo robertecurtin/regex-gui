@@ -27,7 +27,8 @@ const config = [
   "https://github.com/Droogans/unmaintainable-code",
   "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
   "https://embeddedartistry.com/course/building-testable-embedded-systems/",
-  "https://diataxis.fr/"
+  "https://diataxis.fr/",
+  "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
 ];
 
 function Links() {
