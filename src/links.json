@@ -1,94 +1,119 @@
 [
   {
-    "title": "How To Write Unmaintainable Code",
-    "url": "https://cs.fit.edu/~kgallagher/Schtick/How%20To%20Write%20Unmaintainable%20Code.html"
+    "category": "Fun code stuff",
+    "links": [
+      {
+        "title": "How To Write Unmaintainable Code",
+        "url": "https://cs.fit.edu/~kgallagher/Schtick/How%20To%20Write%20Unmaintainable%20Code.html"
+      },
+      {
+        "title": "A curated list of falsehoods programmers believe in",
+        "url": "https://github.com/kdeldycke/awesome-falsehood"
+      },
+      {
+        "title": "Complete list of github markdown emoji markup",
+        "url": "https://gist.github.com/rxaviers/7360908"
+      },
+      {
+        "title": "How to Make Your Code Reviewer Fall in Love with You",
+        "url": "https://mtlynch.io/code-review-love/"
+      }
+    ]
   },
   {
-    "title": "Visualizing Algorithms",
-    "url": "https://bost.ocks.org/mike/algorithms/"
+    "category": "Cool stuff",
+    "links": [
+      {
+        "title": "Visualizing Algorithms",
+        "url": "https://bost.ocks.org/mike/algorithms/"
+      },
+      {
+        "title": "The Evolution of Trust",
+        "url": "https://ncase.me/trust/"
+      },
+      {
+        "title": "An Interactive Guide to Flexbox",
+        "url": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+      }
+    ]
   },
   {
-    "title": "The Evolution of Trust",
-    "url": "https://ncase.me/trust/"
+    "category": "Arcane code stuff",
+    "links": [
+      {
+        "title": "Procedural City (multiple parts)",
+        "url": "https://www.shamusyoung.com/twentysidedtale/?p=2940"
+      },
+      {
+        "title": "Introduction to Low Level Bit Hacks",
+        "url": "https://catonmat.net/low-level-bit-hacks"
+      },
+      {
+        "title": "Understanding Quake’s Fast Inverse Square Root",
+        "url": "https://betterexplained.com/articles/understanding-quakes-fast-inverse-square-root/"
+      },
+      {
+        "title": "A Stick Figure Guide to the Advanced Encryption Standard (AES)",
+        "url": "https://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html"
+      },
+      {
+        "title": "Random Forests for Complete Beginners",
+        "url": "https://victorzhou.com/blog/intro-to-random-forests/"
+      },
+      {
+        "title": "A visual introduction to machine learning",
+        "url": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/"
+      },
+      {
+        "title": "Building Testable Embedded Systems (course under development)",
+        "url": "https://embeddedartistry.com/course/building-testable-embedded-systems/"
+      }
+    ]
   },
   {
-    "title": "Introduction to Low Level Bit Hacks",
-    "url": "https://catonmat.net/low-level-bit-hacks"
+    "category": "Misc. learning",
+    "links": [
+      {
+        "title": "Diataxis (categories of documentation)",
+        "url": "https://diataxis.fr/"
+      },
+      {
+        "title": "An Interactive Introduction to Fourier Transforms",
+        "url": "http://www.jezzamon.com/fourier/index.html"
+      },
+      {
+        "title": "Why leaky pipes can be better for moving water",
+        "url": "https://www.nature.com/articles/d41586-021-01822-1"
+      },
+      {
+        "title": "Why does every advert look the same? Blame Corporate Memphis",
+        "url": "https://www.wired.co.uk/article/corporate-memphis-design-tech"
+      }
+    ]
   },
   {
-    "title": "Understanding Quake’s Fast Inverse Square Root",
-    "url": "https://betterexplained.com/articles/understanding-quakes-fast-inverse-square-root/"
-  },
-  {
-    "title": "A Stick Figure Guide to the Advanced Encryption Standard (AES)",
-    "url": "https://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html"
-  },
-  {
-    "title": "Which Balaclava is Best for Hacking?",
-    "url": "https://hackaday.com/2017/04/01/ask-hackaday-which-balaclava-is-best-for-hacking/"
-  },
-  {
-    "title": "An Interactive Introduction to Fourier Transforms",
-    "url": "http://www.jezzamon.com/fourier/index.html"
-  },
-  {
-    "title": "Random Forests for Complete Beginners",
-    "url": "https://victorzhou.com/blog/intro-to-random-forests/"
-  },
-  {
-    "title": "A visual introduction to machine learning",
-    "url": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/"
-  },
-  {
-    "title": "cooking",
-    "url": "https://www.reddit.com/r/softwaregore/comments/9xvf5u/this_is_fine/"
-  },
-  {
-    "title": "Complete list of github markdown emoji markup",
-    "url": "https://gist.github.com/rxaviers/7360908"
-  },
-  {
-    "title": "A curated list of falsehoods programmers believe in",
-    "url": "https://github.com/kdeldycke/awesome-falsehood"
-  },
-  {
-    "title": "Procedural City (multiple parts)",
-    "url": "https://www.shamusyoung.com/twentysidedtale/?p=2940"
-  },
-  {
-    "title": "How to Make Your Code Reviewer Fall in Love with You",
-    "url": "https://mtlynch.io/code-review-love/"
-  },
-  {
-    "title": "Why does every advert look the same? Blame Corporate Memphis",
-    "url": "https://www.wired.co.uk/article/corporate-memphis-design-tech"
-  },
-  {
-    "title": "Free in-browser multiplayer games",
-    "url": "https://quickparty.games/"
-  },
-  {
-    "title": "Why leaky pipes can be better for moving water",
-    "url": "https://www.nature.com/articles/d41586-021-01822-1"
-  },
-  {
-    "title": "Wordle written in React",
-    "url": "https://github.com/hannahcode/word-guessing-game"
-  },
-  {
-    "title": "Simon Tatham's Portable Puzzle Collection",
-    "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
-  },
-  {
-    "title": "Building Testable Embedded Systems (course under development)",
-    "url": "https://embeddedartistry.com/course/building-testable-embedded-systems/"
-  },
-  {
-    "title": "Diataxis (categories of documentation)",
-    "url": "https://diataxis.fr/"
-  },
-  {
-    "title": "An Interactive Guide to Flexbox",
-    "url": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+    "category": "Misc. fun stuff",
+    "links": [
+      {
+        "title": "Which Balaclava is Best for Hacking?",
+        "url": "https://hackaday.com/2017/04/01/ask-hackaday-which-balaclava-is-best-for-hacking/"
+      },
+      {
+        "title": "cooking",
+        "url": "https://www.reddit.com/r/softwaregore/comments/9xvf5u/this_is_fine/"
+      },
+      {
+        "title": "Free in-browser multiplayer games",
+        "url": "https://quickparty.games/"
+      },
+      {
+        "title": "Wordle written in React",
+        "url": "https://github.com/hannahcode/word-guessing-game"
+      },
+      {
+        "title": "Simon Tatham's Portable Puzzle Collection",
+        "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
+      }
+    ]
   }
 ]

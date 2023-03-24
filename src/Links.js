@@ -1,16 +1,26 @@
 import React from 'react';
-import { Container, Col, Row, ListGroup, ListGroupItem } from 'react-bootstrap';
-import links from './links.json';
+import { ListGroup, ListGroupItem, Accordion } from 'react-bootstrap';
+import config from './links.json';
 
 function Links() {
   return <div className='Links'>
-    <ListGroup>
-        {links.map((link) => {
-          return <ListGroupItem key="{link.url}">
-          <a href={link.url}> {link.title} </a>
-          </ListGroupItem>;
-        })}
-    </ListGroup>
+    <Accordion alwaysOpen >
+      {config.map((category) => {
+        console.log(category);
+        return <Accordion.Item eventKey={category.category} key={category.category}>
+          <Accordion.Header>{category.category}</Accordion.Header>
+          <Accordion.Body>
+            <ListGroup>
+              {category.links.map((link) => {
+                return <ListGroupItem key="{link.url}">
+                  <a href={link.url}> {link.title} </a>
+                </ListGroupItem>;
+              })}
+            </ListGroup>
+          </Accordion.Body>
+        </Accordion.Item>;
+      })}
+    </Accordion>
   </div>;
 }
 
