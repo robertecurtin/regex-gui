@@ -74,6 +74,10 @@
     "category": "Misc. learning",
     "links": [
       {
+        "title": "Non-opinionated vs. Opinionated Design",
+        "url": "https://www.baeldung.com/cs/opinionated-software-design"
+      },
+      {
         "title": "Diataxis (categories of documentation)",
         "url": "https://diataxis.fr/"
       },
