@@ -41,6 +41,10 @@
     "category": "Arcane code stuff",
     "links": [
       {
+        "title": "C-gibberish to English translator",
+        "url": "https://cdecl.org/"
+      },
+      {
         "title": "Procedural City (multiple parts)",
         "url": "https://www.shamusyoung.com/twentysidedtale/?p=2940"
       },
