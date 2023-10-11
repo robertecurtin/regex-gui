@@ -125,6 +125,10 @@
       {
         "title": "Simon Tatham's Portable Puzzle Collection",
         "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
+      },
+      {
+        "title": "Safety sign generator",
+        "url": "https://observatory.db.erau.edu/generators/signs/"
       }
     ]
   }
