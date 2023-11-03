@@ -41,6 +41,10 @@
     "category": "Arcane code stuff",
     "links": [
       {
+        "title": "Confusing git terminology explained",
+        "url": "https://jvns.ca/blog/2023/11/01/confusing-git-terminology/"
+      },
+      {
         "title": "C-gibberish to English translator",
         "url": "https://cdecl.org/"
       },
