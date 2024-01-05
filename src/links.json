@@ -17,6 +17,10 @@
       {
         "title": "How to Make Your Code Reviewer Fall in Love with You",
         "url": "https://mtlynch.io/code-review-love/"
+      },
+      {
+        "title": "Code smells",
+        "url": "https://refactoring.guru/refactoring/smells"
       }
     ]
   },
