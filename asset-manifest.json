@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/neat-stuff/static/css/main.ce44c438.css",
-    "main.js": "/neat-stuff/static/js/main.28e89183.js",
-    "static/js/787.2aad6ac8.chunk.js": "/neat-stuff/static/js/787.2aad6ac8.chunk.js",
-    "index.html": "/neat-stuff/index.html",
-    "main.ce44c438.css.map": "/neat-stuff/static/css/main.ce44c438.css.map",
-    "main.28e89183.js.map": "/neat-stuff/static/js/main.28e89183.js.map",
-    "787.2aad6ac8.chunk.js.map": "/neat-stuff/static/js/787.2aad6ac8.chunk.js.map"
+    "main.css": "/regex-gui/static/css/main.ce44c438.css",
+    "main.js": "/regex-gui/static/js/main.ddc48fd1.js",
+    "static/js/787.2aad6ac8.chunk.js": "/regex-gui/static/js/787.2aad6ac8.chunk.js",
+    "index.html": "/regex-gui/index.html",
+    "main.ce44c438.css.map": "/regex-gui/static/css/main.ce44c438.css.map",
+    "main.ddc48fd1.js.map": "/regex-gui/static/js/main.ddc48fd1.js.map",
+    "787.2aad6ac8.chunk.js.map": "/regex-gui/static/js/787.2aad6ac8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce44c438.css",
-    "static/js/main.28e89183.js"
+    "static/js/main.ddc48fd1.js"
   ]
 }
