@@ -11,7 +11,7 @@ function Intro() {
       <Row>
         {PadRemainingSpace}
         <Col>
-          Stuff Robert thought was neat!
+          <a href='https://www.debuggex.com/cheatsheet/regex/javascript'>Javascript regex cheat sheet</a>
         </Col>
         {PadRemainingSpace}
       </Row>
