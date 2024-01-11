@@ -3,24 +3,31 @@ import { ListGroup, ListGroupItem, Accordion, Button, Form } from 'react-bootstr
 import dictionary from './dictionary.json';
 
 function RegexWidget(props) {
-  const [result, setResult] = React.useState([]);
+  const [results, setResults] = React.useState({ long: <div />, short: <div /> });
   const [regex, setRegex] = React.useState("Enter regex");
   const [useFixedLength, setUseFixedLength] = React.useState(false);
+  const [showMoreResults, setShowMoreResults] = React.useState(true); // sneakily default to hiding the button
 
   const handleSubmit = async (event) => {
     const regexp = new RegExp(useFixedLength ? '^' + regex + '$' : regex, 'ig');
     event.preventDefault();
     event.stopPropagation();
-    setResult(dictionary.filter(a => regexp.test(a)));
+    const newResultsList =
+      dictionary
+        .filter(a => regexp.test(a))
+        .map((a) => {
+          return <ListGroup.Item key={a}>{a}</ListGroup.Item>;
+        });
+
+    setShowMoreResults(false);
+    setResults({ long: newResultsList, short: newResultsList.slice(0, 50) });
   };
 
   const handleRegexChanged = (e) => {
-    console.log(e);
     setRegex(e.target.value);
   };
 
   const handleFixedLengthCheckboxChange = (e) => {
-    console.log(e);
     setUseFixedLength(e.target.value);
   };
 
@@ -37,12 +44,12 @@ function RegexWidget(props) {
     </Form>
     <ListGroup>
 
-    {
-      result.map((a) => {
-        return <ListGroup.Item key={a}>{a}</ListGroup.Item>;
-      })
-    }
+      {showMoreResults ? results.long : results.short}
+
     </ListGroup>
+    <Button variant="primary" type="submit" hidden={showMoreResults} onClick={() => setShowMoreResults(true)}>
+      More results - may be laggy
+    </Button>
   </div>;
 }
 
