@@ -1,2 +1,3 @@
-### neat-stuff
-[Cool links for cool people](https://robertecurtin.github.io/neat-stuff/)
+### regex-gui
+
+Provides a clunky way to access the unix words dictionary
